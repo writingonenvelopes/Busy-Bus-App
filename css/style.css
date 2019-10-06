@@ -1,6 +1,6 @@
 * *:before *:after {
   box-sizing: border-box;
 }
-.Busy-Bus-Route {
-  background-image: url("Busy-Bus-Route.jpg");
+.busy-bus-images {
+  background-image: url("images/3_12-PM.jpg");
 }
