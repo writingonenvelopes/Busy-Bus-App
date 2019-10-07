@@ -11,15 +11,9 @@ body{
 }
 
 nav {
-  background-color: white;
+
 }
 
-.busy-bus-images nav {
-  background-image: url("images/3_12-PM.jpg");
-  background-image: url("images/80%.jpg");
-  background-image: url("images/bar-signal.jpg");
-  background-image: url("images/battery.jpg");
-}
 
 .container {
   background-color: white;
