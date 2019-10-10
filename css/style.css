@@ -9,7 +9,8 @@ body{
   background-color: white;
   content:"";
 clear:both;
-  display:table;
+display:inline;
+
 }
 
 /*clearfix (clear float) */
@@ -17,6 +18,7 @@ clear:both;
 float: center;
 width: 20%;
 padding: 2px;
+display:inline;
 
 }
 
@@ -31,17 +33,31 @@ padding: 2px;
 .content{
 background-color: inherit;
     }
-/*button (20 min.s) */
-    .button {
-      background-color: #FF9100;
-    }
 
-.button{
+
+    }
+    .button1{
+    background-color: white ;
+      font-style: normal;
+      font-family: sans-serif;
+      font-variant: normal;
+      font-weight: 100px;
+      
+
+        }
+        .button2{
+        background-color:#FF9100 ;
+          font-style: normal;
+          font-family: sans-serif;
+          font-variant: normal;
+          font-weight: 100px;
+          font: white;
+}
+.button3{
 background-color: #2979FF;
   font-style: normal;
   font-family: sans-serif;
   font-variant: normal;
   font-weight: 100px;
   font: white;
-
-    }
+}
