@@ -1,21 +1,47 @@
 * *:before *:after {
   box-sizing: border-box;
 }
-
 body{
+
+}
+
+.row::after {
   background-color: white;
-  height: 100px;
-  margin-top: 10px;
-  position: fixed;
-  width: 100%;
+  content:"";
+clear:both;
+  display:table;
 }
 
-nav {
+/*clearfix (clear float) */
+.column {
+float: center;
+width: 20%;
+padding: 2px;
 
 }
 
+  .container{
+margin:0;
+padding: 2px;
+    }
 
-.container {
-  background-color: white;
 
+  }
 }
+.content{
+background-color: inherit;
+    }
+/*button (20 min.s) */
+    .button {
+      background-color: #FF9100;
+    }
+
+.button{
+background-color: #2979FF;
+  font-style: normal;
+  font-family: sans-serif;
+  font-variant: normal;
+  font-weight: 100px;
+  font: white;
+
+    }
