@@ -1,8 +1,51 @@
 * *:before *:after {
   box-sizing: border-box;
 }
-body{
 
+body{
+  background-color: gray;
+  width:360px;
+  padding: 100px;
+ margin: 0;
+}
+
+section{
+  background-color: white;
+  padding:5px 100px 5px 100px;
+}
+.width section{
+width:360px;
+}
+
+article.1{
+  border-bottom: 1.5px solid;
+  border-color: black;
+}
+
+article.2{
+  border-bottom: 1.5px solid gray;
+width: 360px;
+}
+
+article.3{
+  border-bottom: 1px solid gray;
+width: 360px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box article.4 {
+  text-align: left;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  margin-left: 14px;
+  margin-right: 14px;
+  width: 150px;
+  height: 50px;
 }
 
 .row::after {
@@ -10,7 +53,6 @@ body{
   content:"";
 clear:both;
 display:inline;
-
 }
 
 /*clearfix (clear float) */
@@ -19,40 +61,39 @@ float: center;
 width: 20%;
 padding: 2px;
 display:inline;
-
 }
 
-  .container{
+.container{
+  background-color: white;
 margin:0;
 padding: 2px;
-    }
-
-
-  }
 }
+
 .content{
 background-color: inherit;
-    }
+}
 
-
-    }
-    .button1{
+.button1{
+border: 1px solid gray;
+width: 160px left;
     background-color: white ;
       font-style: normal;
       font-family: sans-serif;
       font-variant: normal;
       font-weight: 100px;
-      
-
-        }
-        .button2{
-        background-color:#FF9100 ;
-          font-style: normal;
-          font-family: sans-serif;
-          font-variant: normal;
-          font-weight: 100px;
-          font: white;
+      width:160px;
 }
+
+.button2{
+  background-color:#FF9100 ;
+     font-style: normal;
+     font-family: sans-serif;
+     font-variant: normal;
+     font-weight: 100px;
+     font: white;
+     width:100px;
+}
+
 .button3{
 background-color: #2979FF;
   font-style: normal;
@@ -60,4 +101,5 @@ background-color: #2979FF;
   font-variant: normal;
   font-weight: 100px;
   font: white;
+  width:100px;
 }
