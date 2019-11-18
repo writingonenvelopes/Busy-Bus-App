@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+aside {
+  /* status bar */
+  justify-content: flex-end;
+  width: 360px;
+  height: 20px;
+  margin-left: 145px;
+}
+
 body{
   background-color: gray;
   width:360px;
@@ -42,19 +50,24 @@ h3{
   font-size: 12px;
   line-height: 14px;
   color: rgba(0, 0, 0, 0.53);
+  padding-left: 2px;
 }
 
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
   font-size: 14px;
+  text-align: left;
 }
 
 h5{
   font-family: 'Roboto', sans-serif;
   font-weight:500px;
   font-size: 14px;
+}
 
+li{
+  padding-top: 5px;
 }
 
 section{
@@ -66,11 +79,14 @@ section{
 
 ul{
 background-color:#2979FF;
+color:white;
 height: 27px;
 width: 27px;
 border-radius: 50%;
+text-align: center;
 }
 
+}
 article.2 {
   width: 360px;
   height: 59px;
@@ -78,8 +94,8 @@ article.2 {
 
 ul:hover {
   background-color:#FF9100;
-  font
-  color: white;
+  font color: white;
+  box-shadow: -4px 4px 10px #888888bd;
 }
 
 .blue-location{
@@ -89,7 +105,7 @@ ul:hover {
 }
 
 .bus{
-  margin-left: 22px;
+  margin-left: 26px;
 }
 
 .button1{
@@ -121,9 +137,7 @@ ul:hover {
   font-style: normal;
   font-family: sans-serif;
   font-variant: normal;
-  font-weight: 100px;
   color: white;
-  font: white;
   width:104px;
   padding: 6px;
   text-align: center;
@@ -137,7 +151,6 @@ ul:hover {
 
 /*clearfix (clear float) */
 .column {
-  float: right;
   display:inline;
   padding:5px;
 }
@@ -183,7 +196,6 @@ ul:hover {
     display: flex;
 }
 
-
 .schedule{
     border-bottom: 1.5px outset gray;
     width: 360px;
@@ -198,14 +210,6 @@ ul:hover {
 /*icons in article.3*/
 .start{
   padding-top:8px;
-}
-
-.status{
-  /* status bar */
-  justify-content: flex-end;
-  width: 360px;
-  height: 20px;
-  margin-left: 145px;
 }
 
 .trail_dots{
