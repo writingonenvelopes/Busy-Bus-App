@@ -7,7 +7,7 @@ aside {
   justify-content: flex-end;
   width: 360px;
   height: 20px;
-  margin-left: 145px;
+  margin-left: 165px;
 }
 
 body{
@@ -73,21 +73,22 @@ li{
 section{
   background-color: white;
   width: 360px;
-  height: 950px;
+  height: 895px;
 /*  padding:5px 100px 5px 100px;
 */}
 
 ul{
 background-color:#2979FF;
 color:white;
-height: 27px;
-width: 27px;
+height: 30px;
+width: 30px;
 border-radius: 50%;
 text-align: center;
+margin-top:5px;
 }
 
 }
-article.2 {
+article.1 {
   width: 360px;
   height: 59px;
 }
@@ -105,7 +106,9 @@ ul:hover {
 }
 
 .bus{
-  margin-left: 26px;
+  margin-left: 22px;
+  margin-bottom:4px;
+  padding:2px;
 }
 
 .button1{
@@ -207,7 +210,7 @@ ul:hover {
   margin-bottom: 12px;
 }
 
-/*icons in article.3*/
+/*icons in article.2*/
 .start{
   padding-top:8px;
 }
@@ -216,7 +219,7 @@ ul:hover {
   padding-left:67px;
 }
 
-/*first row of article.4*/
+/*first row of article.3*/
 .title{
   padding-top: 10px;
 }
