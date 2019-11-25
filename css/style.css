@@ -15,7 +15,7 @@ body{
   width:360px;
   padding: 100px;
   margin: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: normal;
   font-size: 16px
 }
@@ -24,7 +24,7 @@ h1 {
   width: 130px;
   height: 30px;
   top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-style:normal;
   font-weight: bold;
   font-size: 14px;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight:bold;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -44,7 +44,7 @@ h3{
   width: 130px;
   height: 30px;
   top: 30px;
-  font-family:  'Roboto', sans-serif;
+  font-family:  'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -54,16 +54,20 @@ h3{
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight:bold;
   font-size: 14px;
   text-align: left;
 }
 
 h5{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight:500px;
   font-size: 14px;
+}
+
+input{
+  margin-top: 13px;
 }
 
 li{
@@ -78,50 +82,30 @@ section{
 */}
 
 ul{
-background-color:#2979FF;
-color:white;
-height: 30px;
-width: 30px;
-border-radius: 50%;
+color:#2979FF;
 text-align: center;
+font-weight: bolder;
+font-size: 18px;
 margin-top:5px;
 }
 
-}
-article.1 {
-  width: 360px;
-  height: 59px;
-}
-
 ul:hover {
-  background-color:#FF9100;
-  font color: white;
-  box-shadow: -4px 4px 10px #888888bd;
+ color:#FF9100;
 }
 
 .blue-location{
-  padding-top: 4px;
+  padding-top: 15px;
   padding-left: 2px;
   margin-right: 3px;
 }
 
 .bus{
-  margin-left: 22px;
+  margin-left: 20px;
   margin-bottom:4px;
   padding:2px;
 }
 
-.button1{
-    border: 1px solid gray;
-    width: 215px;
-    background-color: white;
-    font-style: normal;
-    padding: 4px;
-    font-family: sans-serif;
-    font-variant: normal;
-}
-
-.button2:hover{
+.button:hover{
     background-color: #FF9100;
     font-style: normal;
     font-family: sans-serif;
@@ -135,7 +119,7 @@ ul:hover {
     box-shadow: -4px 4px 10px #888888bd;
 }
 
-.button2{
+.button{
   background-color: #2979FF;
   font-style: normal;
   font-family: sans-serif;
@@ -168,9 +152,9 @@ ul:hover {
   background-color: inherit;
 }
 
-/*for time in article 3*/
+/*for time in article two*/
 .five{
-  padding-top: 8px;
+  padding-top: 20px;
 }
 
 .icons{
@@ -195,6 +179,11 @@ ul:hover {
    padding:3px;
 }
 
+.one {
+  width: 360px;
+  height: 59px;
+}
+
 .row {
     display: flex;
 }
@@ -210,16 +199,17 @@ ul:hover {
   margin-bottom: 12px;
 }
 
-/*icons in article.2*/
+/*icons in article two*/
 .start{
-  padding-top:8px;
+  padding-top:20px;
 }
 
 .trail_dots{
-  padding-left:67px;
+  margin-top:2px;
+  padding-left:60px;
 }
 
-/*first row of article.3*/
+/*first row of article three*/
 .title{
   padding-top: 10px;
 }
@@ -227,5 +217,5 @@ ul:hover {
 /*where (destination) and when (Frequency)*/
 .ww{
   margin-left:24px;
-  margin-right:30px;
+  margin-right:60px;
 }
