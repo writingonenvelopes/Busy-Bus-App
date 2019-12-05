@@ -19,13 +19,12 @@ body{
 }
 
 h1 {
-  width:160px;
-  height: 30px;
-  padding: 5px;
+  width:180px;
+  padding: 7px;
   font-family: 'Roboto Condensed', sans-serif;
   font-style:normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 16px; /* or 123% */
   text-align: center 5px;
   color: #000000;
@@ -39,15 +38,16 @@ h2 {
 }
 
 h3{
-  width:160px;
+  width:180px;
   height: 30px;
   font-family:  'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 14px;
   color: rgba(0, 0, 0, 0.53);
-  padding-left: 2px;
+  padding-left: 8px;
+  margin-top:-5px;
 }
 
 h4 {
@@ -59,7 +59,8 @@ h4 {
 
 h5{
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight:500px;
+  font-weight:600px;
+  font-style: bolder;
   font-size: 14px;
 }
 
@@ -69,12 +70,13 @@ input{
 
 li{
   padding-top: 5px;
+  padding-right:2px;
 }
 
 section{
   background-color: white;
   width: 360px;
-  height: 990px;
+  height: 900px;
 }
 
 ul{
@@ -89,13 +91,13 @@ ul:hover {
  color:#FF9100;
 }
 
-
 .address{
   width: 360px;
   height:10px;
 }
+
 .blue-location{
-  padding-top: 15px;
+  padding-top: 24px;
   padding-left: 2px;
   margin-right: 3px;
 }
@@ -119,7 +121,6 @@ ul:hover {
     padding: 6px;
     text-align: center;
     box-shadow: -4px 4px 10px #888888bd;
-
 }
 
 .button{
@@ -132,7 +133,8 @@ ul:hover {
   margin: 10px;
   padding: 6px;
   text-align: center;
-  float:right;
+  position: absolute;
+  left:770px;
 }
 
 .clearfix::after {
@@ -206,13 +208,18 @@ ul:hover {
 
 /*icons in article two*/
 .start{
-  padding-top:20px;
+  padding-top:30px;
+  padding-right: 10px;
 }
 
 .trail_dots{
-  margin-top:2px;
-  padding-left:60px;
+  padding-bottom: 8px;
+  padding-left:49px;
 }
+
+.time{
+    margin-top:-24px
+  }
 
 /*first row of article three*/
 .title{
