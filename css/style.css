@@ -28,9 +28,6 @@ h1 {
   line-height: 16px; /* or 123% */
   text-align: center 5px;
   color: #000000;
-
-
-
 }
 
 h2 {
@@ -73,14 +70,13 @@ input{
 
 li{
   padding-top: 5px;
-  padding-right:-2px;
   display:block;
 }
 
 section{
   background-color: white;
   width: 360px;
-  height: 900px;
+  height: 860px;
 }
 
 ul{
