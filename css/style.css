@@ -26,7 +26,7 @@ h1 {
   font-weight: bold;
   font-size: 18px;
   line-height: 16px; /* or 123% */
-  text-align: center 5px;
+  text-align: left;
   color: #000000;
 }
 
@@ -48,6 +48,7 @@ h3{
   color: rgba(0, 0, 0, 0.53);
   padding-left: 6px;
   margin-top:-5px;
+  text-align: left;
 }
 
 h4 {
@@ -69,13 +70,13 @@ input{
 }
 
 li{
-  padding-top: 5px;
+
   display:block;
 }
 
 section{
   background-color: white;
-  width: 360px;
+  width: 365px;
   height: 860px;
 }
 
@@ -184,6 +185,10 @@ ul:hover {
 .location{
    border-bottom: 1px solid gray;
    padding:3px;
+}
+
+.number{
+  width: 50px;
 }
 
 .one {
